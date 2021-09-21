@@ -1,7 +1,7 @@
 # 載入需要的套件
 from selenium import webdriver
 from selenium.webdriver.support import ui
-import Member
+from Member import Member
 
 
 class SignAttendance:
