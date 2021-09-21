@@ -15,12 +15,13 @@
   ```
   (pip install -r requirements.txt)(optional)
   ```
+ 
 3. 設定 .env
   ```
   參考 .env.example
   ```
 
-5. 執行
+4. 執行
   ```
   python3.9 Main.py
   ```
