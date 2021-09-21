@@ -2,6 +2,11 @@
 自動簽到吧
 
 1. 須安裝 google-chrome、chromedriver
+  ```
+  [EXAMPLE for MAC]
+  brew install --cask google-chrome
+  brew install --cask chromedriver
+  ```
 
 2. 安裝需求套件
   ```
