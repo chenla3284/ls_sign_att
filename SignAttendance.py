@@ -32,7 +32,7 @@ class SignAttendance:
         self.__pressCheckAttendance()
 
         # 關閉瀏覽器
-        self.__closeBrowser()
+        # self.__closeBrowser()
 
     def __openMainPage(self):
         # 前往打卡系統
