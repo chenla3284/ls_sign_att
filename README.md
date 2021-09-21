@@ -5,10 +5,10 @@
 
 2. 安裝需求套件
   ```
-  pip3.9 -r requirements.txt
+  pip3.9 install -r requirements.txt
   ```
   ```
-  (pip -r requirements.txt)(optional)
+  (pip install -r requirements.txt)(optional)
   ```
 3. 設定 .env
   ```
