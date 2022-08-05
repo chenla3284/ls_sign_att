@@ -1,6 +1,7 @@
 # 載入需要的套件
 from Member import Member
 from SignAttendance import SignAttendance
+from GetCake import GetCake
 import os
 from dotenv import load_dotenv
 
