@@ -2,6 +2,7 @@
 from Member import Member
 from SignAttendance import SignAttendance
 from GetCake import GetCake
+from vote import vote
 import os
 from dotenv import load_dotenv
 
@@ -15,5 +16,5 @@ _membersInfo = dict(zip(_ACCOUNTS, _PASSWORDS))
 
 for acc, pwd in _membersInfo.items():
     singleMember = Member(acc, pwd)
-    signAction = SignAttendance(singleMember)
+    signAction = vote(singleMember)
     signAction.runSign()
